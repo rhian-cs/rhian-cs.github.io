@@ -1,0 +1,59 @@
+---
+permalink: /
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Pong in p5.js!</title>
+
+	<style>
+		/* body {
+			border: 0;
+			padding: 0;
+			background-color: #000;
+			width: 100%;
+			text-align: center;
+		}
+		canvas #defaultCanvas0 {
+			border: 0;
+			display: inline;
+		} */
+
+		html {
+
+			width: 100%;
+		}
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #000;
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+	<script src="/{{ page.path }}/../Hitbox.js"></script>
+	<script src="/{{ page.path }}/../RectangularModel.js"></script>
+
+	<script src="/js/lib/p5.min.js"></script>
+
+	<script src="/{{ page.path }}/../config.js"></script>
+	<script src="/{{ page.path }}/../otherFunctions.js"></script>
+	<script src="/{{ page.path }}/../pong.js"></script>
+	<script src="/{{ page.path }}/../sketch.js"></script>
+</head>
+<body>
+</body>
+</html>
